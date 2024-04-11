@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    letter-spacing: 1.3px;
+    background-color: #f5fffe
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  ul {
+    list-style-type: none;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: normal;
+  }
+ 

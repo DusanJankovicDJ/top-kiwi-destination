@@ -1,0 +1,306 @@
+.hero-div {
+    display: flex;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: url(../images/hero-img.jpg);
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 10%;
+}
+.hero-div * {
+    position: relative;
+    text-align: center;
+}
+.hero-div h1, .hero-div p {
+    width: 100%;
+    margin: 15px;
+    font-size: 1.2em;
+}
+.hero-div p:last-of-type {
+    margin-top: -3px;
+}
+.hero-div h1 {
+    font-size: 4.5em;
+}
+.hero-div .overlay {
+    background-color: rgb(0 0 0 / 70%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.hero-div .btn {
+    margin: 15px;
+    display: inline-block;
+}
+.btn {
+    margin: 15px;
+    display: inline-block;
+    background: #20caac;
+    padding: 13px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    cursor: pointer;
+    background: linear-gradient(#20caac, #20caac 50%, #ff0000 50%, #ff0000);
+    background-size: 100% 200%;
+    transition: background .3s;
+}
+.explore-more-btn:hover {
+    background-position: 100% 100%;
+}
+  
+.casinos-preview, .bars-preview {
+    width: 85%;
+    margin: 40px auto;
+    text-align: center;
+ }
+h2 {
+    font-size: 3em;
+}
+.casinos-preview p, .bars-preview p {
+    margin-top: 25px;
+    font-size: 1.1em;
+}
+.box-parrent {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box {
+    width: 31%;
+    background-color: #fff;
+    height: 620px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.box * {
+    text-align: left;
+    display: block;
+}
+.box h3, .box p, .box-stars {
+    width: 85%;
+    margin: 0 auto;
+}
+.box h3 {
+    margin-top: 10px;
+}
+.box-stars {
+    margin-top: 20px;
+}
+.box span {
+    display: inline;
+    width: auto;
+    color: transparent;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff9e00;
+}
+.box-stars .checked {
+    color: #ff9e00;
+    -webkit-text-fill-color: #ff9e00;
+}
+.box-img {
+    width: 100%;
+    height: 360px;
+    background-image: url(../images/hotel1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box:nth-of-type(2) .box-img {
+    background-image: url(../images/hotel2.jpg);
+}
+.box:nth-of-type(3) .box-img {
+    background-image: url(../images/hotel3.jpg);
+}
+.box:nth-of-type(4) .box-img {
+    background-image: url(../images/hotel4.jpg);
+}
+.box:nth-of-type(5) .box-img {
+    background-image: url(../images/hotel5.jpg);
+}
+.box:nth-of-type(6) .box-img {
+    background-image: url(../images/hotel6.jpg);
+}
+
+.bars-preview .box .box-img {
+    background-image: url(../images/hotel7.jpg);
+}
+.bars-preview .box:nth-of-type(2) .box-img {
+    background-image: url(../images/hotel8.jpg);
+}
+.bars-preview .box:nth-of-type(3) .box-img {
+    background-image: url(../images/hotel9.jpg);
+}
+.bars-preview .box:nth-of-type(4) .box-img {
+    background-image: url(../images/hotel10.jpg);
+}
+.box a {
+    justify-content: center;
+    font-size: .85em;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 600;
+}
+.box-btn {
+    padding: 14px 20px;
+    width: auto;
+    height: 45px;
+    margin-left: 7.5%;
+    background: linear-gradient(#20caac, #20caac 50%, #1e0505 50%, #1e0505);
+    background-size: 100% 200%;
+    transition: background .3s;
+}
+.box-btn:hover {
+    background-position: 100% 100%;
+}
+.bars-preview .box {
+    width: 47%;
+}
+.box-title {
+    font-size: 1.6em;
+}
+
+article {
+    background-color: #fff;
+    padding: 10px 0;
+}
+article p {
+    width: 85%;
+    margin: 25px auto;
+    text-align: left;
+    color: #383535;
+}
+
+.bars-preview .box {
+    height: 560px;
+}
+
+@media only screen and (max-width: 1200px){
+    .hero-div {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .hero-div h1 {
+        font-size: 3.8em;
+    }
+    .casinos-preview, .bars-preview {
+        width: 95%;
+    }
+    article p {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero-div {
+        height: calc(100vh - 70px);
+        padding: 5%;
+    }
+    .hero-div p {
+        margin: 15px 0;
+        line-height: 26px;
+    }
+    .hero-div h1 {
+        font-size: 2.5em;
+    }
+    .casinos-preview .box, .bars-preview .box {
+        width: 85%;
+        justify-content: center;
+        display: block;
+        height: auto;
+    }
+    .box * {
+        text-align: center;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .casinos-preview, .bars-preview {
+        margin-bottom: 5px;
+    }
+    .casinos-preview p, .bars-preview p {
+        margin-top: 5px;
+    }
+    article p {
+        margin-top: 5px;
+        font-size: .99em;
+        width: 80%;
+        text-align: center;
+    }
+    .box h3 {
+        font-size: 1.3em;
+        margin-top: 20px;
+        width: 90%;
+    }
+    .box a {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+    .box-stars {
+        margin-top: 15px;
+        margin: 10px auto;
+        font-size: .95em;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .hero-div {
+        padding: 0 2%;
+    }
+    .hero-div h1 {
+        font-size: 2em;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 15px;
+        width: 95%;
+    }
+    .hero-div p {
+        font-size: 1.2em;
+        margin: 0;
+        line-height: 28px;
+    }
+    .hero-div .btn {
+        font-size: .85em;
+    }
+    .casinos-preview .box, .bars-preview .box {
+        width: 100%;
+        justify-content: center;
+    }
+    article p {
+        width: 95%;
+    }
+    .hero-div .btn {
+        margin-top: 30px;
+    }
+    .casinos-preview .box, .bars-preview .box {
+        width: 98%;
+        justify-content: center;
+        display: block;
+        height: auto;
+    }
+    article p {
+        width: 95%;
+    }
+    .box a {
+        height: 40px;
+        font-size: .8em;
+    }
+}

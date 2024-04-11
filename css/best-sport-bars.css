@@ -1,0 +1,630 @@
+body {
+    background: #fff;
+}
+.content {
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: auto;
+    background-attachment: fixed;
+}
+.content h2 {
+    color: #fff;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+}
+.ads {
+    width: 83%;
+    margin: 20px auto;
+}
+.ad {
+    background-color: #fff;
+    margin: 15px;
+    display: flex;
+    position: relative;
+    height: 155px;
+    border-radius: 5px;
+    align-items: center;
+}
+.additional-info-filled {
+    padding-bottom: 15px;
+}
+.tab1, .tab5 {
+    border-right: 1px solid #ccc;
+    height: 100%;
+    padding: 0 5px;
+    width: 15.17%;
+}
+.tab2 {
+    width: 25%;
+}
+.tab3, .tab4 {
+    width: 22.33%;
+}
+.ad-logo {
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ad:nth-of-type(1) .ad-logo {
+    background-image: url(../images/rabona.png);
+}
+.ad:nth-of-type(2) .ad-logo {
+    background-image: url(../images/quickwin.png);
+}
+.ad:nth-of-type(3) .ad-logo {
+    background-image: url(../images/22bet.png);
+}
+.ad:nth-of-type(4) .ad-logo {
+    background-image: url(../images/sportuna.png);
+}
+.ad:nth-of-type(5) .ad-logo {
+    background-image: url(../images/tonybet.png);
+}
+.ad:nth-of-type(6) .ad-logo {
+    background-image: url(../images/betwaysports.png);
+}
+.ads:nth-of-type(2) .ad:nth-of-type(1) .ad-logo {
+    background-image: url(../images/christchurch.png);
+}
+.ads:nth-of-type(2) .ad:nth-of-type(2) .ad-logo {
+    background-image: url(../images/jpc-new.png);
+}
+.ads:nth-of-type(2) .ad:nth-of-type(3) .ad-logo {
+    background-image: url(../images/spincasino.png);
+}
+.ad-position {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #38a583;
+    color: #fff;
+    width: 30px;
+    display: flex;
+    height: 30px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.tab2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+.tab2 p {
+    line-height: 33px;
+}
+.bonus-code {
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+}
+.more-info {
+    font-size: small;
+    text-decoration: underline;
+    font-weight: 300;
+    display: none;
+}
+.tab3 i {
+    color: #38a583;
+    margin-right: 10px;
+}
+.tab3 ul {
+    width: 90%;
+    margin: 0 auto;
+}
+.tab3 {
+    line-height: 27px;
+}
+.deposit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.deposit p {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+.deposit div {
+    width: 17%;
+    display: inline-block;
+    height: 33px;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 2px;
+}
+.deposit div:nth-of-type(2){
+    margin: 0 5px;
+}
+.skrill {background-image: url(../images/skrill.svg);}
+.visa {background-image: url(../images/visa.svg);}
+.ecobank {background-image: url(../images/ecobank.svg);}
+.muchbetter {background-image: url(../images/muchbetter.svg);}
+.neteller {background-image: url(../images/neteller.svg);}
+.mastercard {background-image: url(../images/mc.svg);}
+.paypal {background-image: url(../images/paypal.svg);}
+.paysafe {background-image: url(../images/paysafe.svg);}
+.interac {background-image: url(../images/interac.svg);}
+.bet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column
+}
+.btn-bet-now, .btn {
+    margin: 15px;
+    display: inline-block;
+    background: #20caac;
+    padding: 13px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    cursor: pointer;
+    background: linear-gradient(#20caac, #20caac 50%, #ff0000 50%, #ff0000);
+    background-size: 100% 200%;
+    transition: background .3s;
+}
+.additional-info {
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid #ccc;
+    padding: 2px 0;
+    font-size: .9em;
+}
+.additional-info a {
+    color: green;
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+
+.banner {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    background-position-y: center;
+    background-image: url(../images/pagetitle.jpg);
+}
+.banner span {
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.5em;
+    display: block;
+    border-left: 5px solid #00ffbd;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.banner-description {
+    padding: 4% 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner-description span {
+    font-size: 2em;
+    font-weight: bold;
+}
+.banner-description p {
+    line-height: 1.7;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #191818;
+}
+.banner-description * {
+    width: 80%;
+    text-align: center;
+}
+
+.bars-preview {
+    width: 83%;
+    margin: 40px auto 0;
+    text-align: center;
+    background-color: #f5fffe;
+    padding: 40px 0 55px;
+ }
+h2 {
+    font-size: 3em;
+}
+.bars-preview p {
+    margin-top: 25px;
+    font-size: 1.1em;
+}
+.box-parrent {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bars-preview .box {
+    background-color: #fff;
+    height: 640px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.bars-preview .box * {
+    text-align: left;
+    display: block;
+}
+.bars-preview .box-stars span {
+    display: inline-block;
+}
+.bars-preview .box h3, .bars-preview .box p, .bars-preview .box-stars {
+    width: 90%;
+    margin: 0 auto;
+}
+.box-parrent .box p {
+    margin: 10px auto;
+}
+.bars-preview .box h3 {
+    margin: 20px auto;
+}
+.box-stars {
+    color: transparent;
+}
+.box-stars span {
+    display: inline;
+    width: auto;
+    color: transparent;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ff9e00;
+}
+.box-stars .checked {
+    color: #ff9e00;
+    -webkit-text-fill-color: #ff9e00;
+}
+.box-img {
+    width: 100%;
+    height: 360px;
+    background-image: url(../images/hotel1.jpg);
+    background-size: cover;
+}
+.bars-preview .box-img {
+    background-image: url(../images/hotel10.jpg);
+}
+.bars-preview .box:nth-last-of-type(2) .box-img{
+    background-image: url(../images/hotel9.jpg);
+}
+.bars-preview .box:nth-last-of-type(3) .box-img{
+    background-image: url(../images/hotel8.jpg);
+}
+.bars-preview .box:nth-last-of-type(4) .box-img{
+    background-image: url(../images/hotel7.jpg);
+}
+.bars-preview .box i {
+    display: inline;
+    padding: 3px;
+    color: #20caac;
+}
+.box-btn {
+    padding: 8px 20px;
+    width: auto;
+    height: 40px;
+    margin-left: 5%;
+    background: linear-gradient(#20caac, #20caac 50%, #1e0505 50%, #1e0505);
+    background-size: 100% 200%;
+    transition: background .3s;
+}
+.box-btn:hover {
+    background-position: 100% 100%;
+}
+.box-title {
+    font-size: 1.6em;
+}
+.bars-preview .box {
+    /* height: 560px; */
+    height: auto;
+    width: 48%;
+}
+.box-stars-small-screen, .btn-bet-now-small-screen {
+    display: none;
+}
+
+article:last-of-type {
+    background-image: url(../images/bgabout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    background-position-x: center;
+    background-position-y: center;
+    width: 83%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.15em;
+    display: flex;
+    align-items: end;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 1024px){
+    .bars-preview {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    .deposit {
+        display: none;
+    }
+    .tab2 {
+        width: 30.5825%;
+    }
+    .tab3 {
+        width: 33.495%;
+    }
+    .tab5 {
+        width: 20.725%;
+    }
+    .btn-bet-now, .btn {
+        height: 41px;
+        width: max-content;
+    }
+    .ads {
+        width: 95%;
+    }
+    .ad {
+        height: 130px;
+        padding: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .ads {
+        width: 85%;
+    }
+    .ad {
+        height: 150px;
+        flex-wrap: wrap;
+        padding: 0;
+        align-items: unset;
+        overflow: hidden;
+        transition: .3s all;
+    }
+    .additional-info-filled {
+        height: 170px;
+    }
+    .ad-logo {
+        background-size: 70%;
+    }
+    .tab1, .tab2 {
+        height: 150px;
+        position: relative;
+    }
+    .tab3, .tab4 {
+        height: 110px;
+        border-top: 1px solid #ccc;
+        width: 60%;
+        display: flex;
+        justify-content: start;
+        align-items: normal;
+        padding: 5px 10px 10px;
+    }
+    .tab4 {
+        width: 40%;
+    }
+    .deposit div {
+        width: 26%;
+        height: 30px;
+    }
+    .tab1 {
+        width: 35%;
+    }
+    .tab2 {
+        width: 65%;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50%;
+        font-size: 1em;
+        font-weight: bold;
+        flex-wrap: wrap;
+        display: block;
+        text-align: center;
+        height: 150px;
+        padding: 30px 0;
+
+    }
+    .tab2 p {
+        width: 100%;
+        line-height: 20px;
+        height: max-content;
+    }
+    .tab3 ul {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 0.92em;
+    }
+    .tab4 p {
+        display: none;
+    }
+    .tab5 {
+        display: none;
+    }
+    .ad-logo.tab1 {
+        background-position-y: 40%;
+    }
+    .box-stars-small-screen {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+    }
+    .bonus-code {
+        font-size: inherit;
+    }
+    .btn-bet-now-small-screen {
+        display: flex;
+        margin: 2px auto;
+        align-items: center;
+    }
+    .more-info {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .ads {
+        width: 70%;
+    }
+    .bars-preview .box {
+        width: 85%;
+        justify-content: center;
+    }
+    .box * {
+        text-align: center;
+    }
+    .bars-preview .box h3 {
+        font-size: 1.4em;
+        margin: 10px auto;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    .bars-preview {
+        margin-bottom: 5px;
+        padding: 40px 0 15px;
+    }
+    .bars-preview p {
+        margin-top: 5px;
+        margin-top: 15px;
+        font-size: .95em;
+    }
+    .banner {
+        height: 220px;
+    }
+    .banner span {
+        font-size: 2.5em;
+    }
+    .banner-description p {
+        font-size: 1.05em;
+    }
+    .banner-description * {
+        width: 91%;
+    }
+    .bars-preview .box * {
+        text-align: center;
+    }
+    .bars-preview .btn {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .ads {
+        width: 95%;
+    }
+    .tab3, .tab4 {
+        width: 100%;
+    }
+    .tab3 {
+        height: 70px;
+    }
+    .tab4 {
+        border-top: none;
+        height: auto;
+        justify-content: center;
+    }
+    .deposit div {
+        width: 9%;
+    }
+    .banner {
+        height: 150px;
+    }
+    .banner span {
+        font-size: 1.7em;
+        width: 91%;
+    }
+    article:last-of-type {
+        margin-bottom: 45px;
+        font-size: 0.91em;
+        line-height: 1.6em;
+        width: 90%;
+        height: 160px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .bars-preview {
+        margin: 20px auto 0;
+        padding: 20px 0 15px;
+    }
+    .bars-preview .box {
+        width: 92%;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .additional-info {
+        font-size: 0.7em;
+        border-top: none;
+    }
+    .deposit div {
+        width: 19%;
+    }
+    .banner {
+        height: 150px;
+    }
+    .banner span {
+        font-size: 1.3em;
+    }
+    .banner-description {
+        padding: 7% 0;
+    }
+    .banner-description span {
+        font-size: 1.8em;
+    }
+    .banner-description p {
+        font-size: .96em;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .tab1 {
+        width: 40%;
+    }
+    .tab2 {
+        width: 60%;
+        font-size: .85em;
+    }
+    .btn-bet-now-small-screen {
+        font-size: .85em;
+    }
+    .btn-bet-now, .btn {
+        padding: 0px 30px;
+        height: 35px;
+    }
+    article:last-of-type {
+        height: 180px;
+        margin-bottom: 45px;
+        font-size: 0.91em;
+        line-height: 1.6em;
+    }
+}
